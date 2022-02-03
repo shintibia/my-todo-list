@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>My Todo List</title>
+</head>
+<body>
+    <header></header>
+    <div class="main">
+        <div class="main__heading">My Todo</div>
+        <div class="main__content">
+            <form class="submit-form">
+                <input type="text" class="submit-input" placeholder="What are you going to do?">
+                <input type="submit" id="submit-btn" class="submit-btn" value="ADD">
+            </form>
+
+            <!-- <ul class="filter">
+                <li class="filter-all">All</li>
+                <li class="filter-completed">Completed</li>
+                <li class="filter-uncompleted">Uncompleted</li>
+            </ul> -->
+
+            <div class="filter-container">
+                <select name="todos" class="filter-todos">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+
+
+            <div class="main__todo-list">
+                
+                <!-- <div class="main__todo">
+                    <input type="text" value="Xin chao Viet Nam">
+                    <div class="todo-btn">
+                        <button class="check-btn delete-btn">
+                            <i class="fas fa-check"></i>
+                        </button>
+                        <button>
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div> -->
+
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>
